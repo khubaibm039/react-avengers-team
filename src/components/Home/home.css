@@ -1,0 +1,24 @@
+body {
+    background-image: url('https://i.ibb.co/JB1y0X5/4690.jpg'),
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.info {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.home-container {
+    display: flex;
+}
+
+.cart-container {
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
