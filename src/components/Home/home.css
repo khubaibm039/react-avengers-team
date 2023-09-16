@@ -7,11 +7,6 @@ body {
     background-attachment: fixed;
 }
 
-.info {
-    display: flex;
-    justify-content: space-evenly;
-}
-
 .home-container {
     display: flex;
 }

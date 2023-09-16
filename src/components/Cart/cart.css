@@ -1,8 +1,9 @@
 .carts {
     width: 300px;
-    height: 400px;
+    min-height: 100px;
     border: 2px solid gray;
     border-radius: 15px;
+    padding: 20px 0;
 
 }
 
@@ -10,7 +11,13 @@
     width: 80px;
     border-radius: 50px;
 }
-button {
+
+.button {
     background-color: aqua;
     color: black;
+}
+
+.info {
+    display: flex;
+    justify-content: space-evenly;
 }

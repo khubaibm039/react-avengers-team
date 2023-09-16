@@ -1,8 +1,8 @@
 import './cart.css'
 // eslint-disable-next-line react/prop-types
-const Cart = ({ cart,handleSlectActor }) => {
+const Cart = ({ cart, handleSlectActor }) => {
     // eslint-disable-next-line react/prop-types
-    const { image, salary, role } = cart
+    const { name, image, salary, role } = cart
     return (
         <div>
             <div className="carts">
@@ -16,7 +16,7 @@ const Cart = ({ cart,handleSlectActor }) => {
                     <p>{role}</p>
 
                 </div>
-                <button onClick={handleSlectActor}>Select</button>
+                <button className='button' onClick={() => handleSlectActor(cart)}>Select</button>
             </div>
         </div>
     );
